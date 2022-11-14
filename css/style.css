@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #202225;
+  color: whitesmoke;
+  /* padding: 15px 20px; */
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 70px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.navbar .dc-logo {
+  background-color: #36393f;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.navbar .dc-logo:hover {
+  background-color: #3565c5;
+  border-radius: 30%;
+  transition: 0.5s;
+}
+
+.navbar .dc-logo img {
+  width: 100%;
+  object-fit: cover;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.navtop header {
+  padding-left: 7px;
+  color: grey;
+}
+
+.navtop {
+  background-color: #202225;
+  width: 1000px;
+  height: 20px;
+}
+
+.navbar .cards {
+  background-color: #36393f;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  padding: 10px;
+  height: 60px;
+  transition: 0.5s;
+  gap: 100%;
+}
+
+.navbar .cards a {
+  color: #2ec030;
+  font-size: 30px;
+  text-decoration: none;
+  padding-top: 5px;
+}
+
+.navbar .cards:hover {
+  background-color: #2ec030;
+  color: white;
+  border-radius: 30%;
+  transition: 0.5s;
+}
+
+.navbar .cards a:hover {
+  color: white;
+}
